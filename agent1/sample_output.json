@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://developers.moengage.com/hc/en-us/articles/9467044080660-Tracking-Events-7-x-x#h_01H96953S1KHBK0JANKVYDHSM1",
+    "readability": {
+      "assessment": "The content is not easily readable for non-technical marketers due to excessive technical jargon, code snippets, and lack of high-level explanations. Key marketing-focused context (e.g., why event tracking matters for campaigns) is buried in implementation details.",
+      "suggestions": [
+        "Replace code blocks with conceptual explanations (e.g., 'Track purchases with product details like price and category' instead of JavaScript examples)",
+        "Add a marketer-friendly summary at the top explaining how event tracking enables personalized campaigns and user segmentation",
+        "Convert warning/info boxes to plain language (e.g., 'Important: Avoid special characters in event names' instead of markdown formatting)",
+        "Simplify technical terms - 'MoEProperties' → 'Event Metadata', 'Non-interactive events' → 'Background Activity Events'",
+        "Add real-world examples of how tracked events translate to marketing use cases (e.g., abandoned carts → retargeting emails)",
+        "Break SDK version requirements into a separate technical sidebar",
+        "Include a visual flowchart showing how event data flows to marketing campaigns",
+        "Add a 'Why This Matters' section explaining how event tracking impacts ROI/Customer LTV",
+        "Replace React Native API references with platform-agnostic descriptions of tracking capabilities"
+      ]
+    },
+    "structure": {
+      "assessment": "Error during analysis (JSON parsing failed): Expecting value: line 1 column 1 (char 0)",
+      "suggestions": []
+    },
+    "completeness": {
+      "assessment": "The article provides a basic example for tracking events but lacks comprehensive details and diverse examples to cover common use cases. It explains non-interactive events and session analytics but does not address error handling, event validation, or advanced tracking scenarios.",
+      "suggestions": [
+        "Add examples for common scenarios like tracking user sign-ups ('User Registered') or product interactions ('Product Added to Cart') with relevant attributes.",
+        "Include a list of allowed/disallowed event name formats (e.g., 'product_view_2024' vs. 'product-view') to clarify naming rules.",
+        "Explain use cases for non-interactive events (e.g., background syncs) and their impact on analytics.",
+        "Link to prerequisite setup steps (e.g., SDK initialization, data center configuration) to ensure seamless implementation.",
+        "Add a troubleshooting section for issues like missing events or attribute type mismatches."
+      ]
+    },
+    "style_guidelines": {
+      "assessment": "Error during analysis (JSON parsing failed): Expecting value: line 1 column 1 (char 0)",
+      "suggestions": []
+    }
+  },
+  {
+    "url": "https://developers.moengage.com/hc/en-us/articles/4562310959380-Notification-Customisation-11-x-x",
+    "readability": {
+      "assessment": "Error during analysis (JSON parsing failed): Expecting value: line 1 column 1 (char 0)",
+      "suggestions": []
+    },
+    "structure": {
+      "assessment": "The article has clear headings but lacks an introduction and has inconsistent hierarchy. The code samples are useful but could be enhanced with syntax highlighting. The broken image link and placement of the table of contents disrupt the flow.",
+      "suggestions": [
+        "Move the 'Table of contents' section to the top of the article for better navigation.",
+        "Fix the broken image link (85203bc-notificationTypeMultiple.png) or replace it with a valid visual aid.",
+        "Add a brief introductory paragraph explaining the purpose of notification customization in Android SDK.",
+        "Use consistent verb forms in headings (e.g., 'Enable Multiple Notifications' instead of 'Show Multiple Notifications' to match 'Setting Notification Color').",
+        "Add syntax highlighting to code blocks for better readability.",
+        "Convert the note about Lollipop compatibility into a highlighted warning/callout box for emphasis.",
+        "Include Kotlin code examples alongside Java to cater to modern Android development practices."
+      ]
+    },
+    "completeness": {
+      "assessment": "The documentation provides basic customization features but lacks detailed explanations and sufficient examples for a comprehensive understanding.",
+      "suggestions": [
+        "Add Kotlin code examples alongside Java snippets to cater to modern Android development practices.",
+        "Include a concrete example of R.color.colorAccent definition in res/values to clarify resource requirements.",
+        "Add visual examples of notification color implementation across different Android versions.",
+        "Explain practical use cases for multiple notifications and potential conflicts with system-level notification grouping.",
+        "Provide guidance on handling notification channel compatibility (Android 8.0+) when using these customizations",
+        "Include troubleshooting examples for common notification display issues related to these settings"
+      ]
+    },
+    "style_guidelines": {
+      "assessment": "The article's technical content is clear but contains passive voice, redundant code examples, and can be more action-oriented. Some notes lack clarity and use non-standard formatting.",
+      "suggestions": [
+        "Change 'You can switch modes where the app shows multiple notifications' to 'Enable multiple notifications mode to display concurrent alerts in the notification drawer' for action orientation",
+        "Simplify the info note formatting from 'info | **Note** Applicable only...' to '**Note:** Only applicable...' for clearer formatting [cite:16]",
+        "Shorten repetitive code examples by removing duplicate builder initialization lines and using '...' to indicate continuation [cite:16]",
+        "Replace passive construction 'The SDK displays as described' with 'The SDK displays notifications as shown below' for active voice [cite:15]",
+        "Break down the dense code example into a numbered step list with comments for better scanability [cite:17]",
+        "Replace 'achieved by customizing the initializing object' with 'To configure multiple notifications, modify the initialization object' for action focus [cite:17]",
+        "Convert the hybrid markdown/plain text image reference to proper markdown syntax for consistency: '![Multiple Notifications](85203bc-notificationTypeMultiple.png)' [cite:16]"
+      ]
+    }
+  }
+]
